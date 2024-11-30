@@ -78,6 +78,21 @@ These QR codes can be scanned by users to make payments directly to the specifie
 
 4. **QR Code Display**:
    - The generated QR codes are displayed in pop-up windows using the `show()` method of the `qrcode` library.
+  
+
+Certainly! Here’s an **Acknowledgments** section you can add to your `README.md` to give credit to relevant libraries, tools, or individuals who have contributed to your project:
+
+---
+
+## Acknowledgments
+
+- **[qrcode](https://pypi.org/project/qrcode/)**: The QR code generation functionality in this project is powered by the `qrcode` Python library. This library provides a simple way to generate QR codes from strings, and it is the core tool for generating UPI payment QR codes.
+  
+- **[Pillow](https://pypi.org/project/Pillow/)**: The `Pillow` library is used to support image generation and saving in the `qrcode` library. It allows us to save the generated QR codes as `.png` files for later use.
+
+- **UPI (Unified Payments Interface)**: The UPI payment system in India is the basis for the QR codes generated in this project. UPI simplifies the digital payment process, and the URL format used here is an open standard for creating UPI payment links.
+
+- **Open Source Community**: Thanks to the open-source community for their contributions to Python libraries like `qrcode`, `Pillow`, and other tools that make this project possible. Without open-source tools, building such projects would be far more complex and time-consuming.
 
 
 
