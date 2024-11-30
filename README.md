@@ -1,7 +1,5 @@
 # QR-Code-Generator-
 
-# UPI QR Code Generator
-
 A Python-based tool that generates UPI QR codes for multiple payment apps (PhonePe, Paytm, and Google Pay). This tool allows you to easily create QR codes for receiving payments via UPI by inputting your UPI ID, recipient name, and the amount to be paid.
 
 ## Features
